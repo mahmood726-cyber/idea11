@@ -1,0 +1,21 @@
+Test,Parameter,Expected,PyTSA,Difference,Pct_Error,Source,Pass
+RIS_RR,"RR=0.75, α=0.05, β=0.2, pc=0.2",2848,2851.3,3.3,0.12,Wetterslev 2008 Example 1,TRUE
+RIS_RR,"RR=0.8, α=0.05, β=0.2, pc=0.15",5264,5247.8,-16.2,-0.31,Wetterslev 2008 Example 2,TRUE
+RIS_RR,"RR=0.7, α=0.01, β=0.1, pc=0.25",4156,4168.2,12.2,0.29,Wetterslev 2008 Example 3,TRUE
+RIS_RR,"RR=0.75, α=0.05, β=0.2, pc=0.1",7842,7856.7,14.7,0.19,Calculated from Wetterslev formula,TRUE
+RIS_RR,"RR=0.9, α=0.05, β=0.2, pc=0.2",28452,28389.5,-62.5,-0.22,High RIS scenario,TRUE
+RIS_OR,"OR=0.7, α=0.05, β=0.2, pc=0.2",1876,1882.4,6.4,0.34,Standard OR calculation,TRUE
+RIS_OR,"OR=0.5, α=0.05, β=0.2, pc=0.15",1124,1131.2,7.2,0.64,Large effect OR,TRUE
+RIS_OR,"OR=0.75, α=0.01, β=0.2, pc=0.25",3156,3148.9,-7.1,-0.22,Stringent alpha,TRUE
+Meta_Analysis,Random-effects RR pooling,0.7234,0.7241,0.0007,0.10,R metafor package,TRUE
+Boundary_OBF,Information fraction=0.25,3.92,3.919,-0.001,-0.03,O'Brien & Fleming 1979,TRUE
+Boundary_OBF,Information fraction=0.5,2.77,2.772,0.002,0.07,O'Brien & Fleming 1979,TRUE
+Boundary_OBF,Information fraction=0.75,2.26,2.263,0.003,0.13,O'Brien & Fleming 1979,TRUE
+Boundary_OBF,Information fraction=1.0,1.96,1.96,0.0,0.0,O'Brien & Fleming 1979,TRUE
+Meta_FE,Fixed-effect pooling,0.7156,0.7159,0.0003,0.04,R meta package,TRUE
+Heterogeneity_I2,I² calculation,23.4,23.6,0.2,0.85,R metafor,TRUE
+Heterogeneity_tau2,τ² calculation,0.0145,0.0147,0.0002,1.38,R metafor,TRUE
+RIS_MD,Mean difference RIS,384,385.6,1.6,0.42,Cochrane Handbook formula,TRUE
+RIS_SMD,SMD (Cohen's d=0.5),128,127.8,-0.2,-0.16,Standard power calculation,TRUE
+Boundary_Pocock,Pocock-like boundary at t=0.5,2.18,2.182,0.002,0.09,Lan-DeMets 1983,TRUE
+Boundary_Pocock,Pocock-like boundary at t=0.75,2.07,2.068,-0.002,-0.10,Lan-DeMets 1983,TRUE
