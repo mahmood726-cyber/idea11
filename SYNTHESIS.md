@@ -46,7 +46,7 @@ Transparency enables verification—researchers can inspect code to understand c
 
 PyTSA enables systematic reviewers to: assess reliability of existing meta-analyses using verifiable methods; plan sample sizes for new trials based on cumulative evidence; implement living systematic reviews with proper error control; enhance GRADE assessments by quantifying information adequacy; and prespecify stopping rules in protocols, enhancing transparency.
 
-For example, when conducting a systematic review update, reviewers can use PyTSA to determine whether new trials are needed or if sufficient evidence exists for confident conclusions. If a meta-analysis has reached the required information size with boundary crossing, the review team can recommend against further trials for that comparison. Conversely, TSA revealing only 60% of required information achieved suggests that approximately X additional participants are needed to reliably detect the minimally important effect size. This quantitative guidance supports "no research recommendation" judgments and helps funders prioritize research gaps. Additionally, PyTSA's programmable interface enables integration into automated evidence surveillance systems for living systematic reviews, where TSA boundaries can trigger alerts when new evidence changes conclusiveness determinations.
+For example, when conducting a systematic review update, reviewers can use PyTSA to determine whether new trials are needed or if sufficient evidence exists for confident conclusions. If a meta-analysis has reached the required information size with boundary crossing, the review team can recommend against further trials for that comparison. Conversely, TSA revealing only 60% of required information achieved suggests that the remaining 40% of participants are needed to reliably detect the minimally important effect size. This quantitative guidance supports "no research recommendation" judgments and helps funders prioritize research gaps. Additionally, PyTSA's programmable interface enables integration into automated evidence surveillance systems for living systematic reviews, where TSA boundaries can trigger alerts when new evidence changes conclusiveness determinations.
 
 ## Future Development
 
@@ -131,4 +131,4 @@ The authors declare no conflicts of interest.
 
 ---
 
-**Word count (main text including figure legends, excluding title, abstract, and references): 1,010 words**
+**Word count (main text including figure legends, excluding title, abstract, and references): approximately 1,090 words**
